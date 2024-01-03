@@ -1,44 +1,49 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
-const Hero = () => (
-  <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            GitHub
-          </Link>
-        </li>
-        <li>
-          <Link href="/">Sign in</Link>
-        </li>
-      </NavbarTwoColumns>
-    </Section>
+const Hero = () => {
+  const scroll = (top: number) => () => {
+    window.scrollTo({ top, left: 0, behavior: 'smooth' });
+  };
 
-    <Section yPadding="pt-20 pb-32">
-      <HeroOneButton
+  return (
+    <Background>
+      <Section yPadding="py-4 ">
+        <NavbarTwoColumns>
+          <li className="text-sm font-bold text-gray-900">
+            <Link href="/">خانه</Link>
+          </li>
+          <li
+            className="cursor-pointer text-sm font-bold text-gray-900"
+            onClick={scroll(500)}
+          >
+            درباره ما
+          </li>
+          <li
+            className="cursor-pointer text-sm font-bold text-gray-900"
+            onClick={scroll(20000)}
+          >
+            تماس با ما
+          </li>
+        </NavbarTwoColumns>
+      </Section>
+
+      <Section yPadding="pt-20 layout ">
+        {/* <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'The modern Journeys as unique as you are \n'}
+            <span className="text-primary-500">...Coming Soon</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
-        button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
-          </Link>
-        }
-      />
-    </Section>
-  </Background>
-);
+        description=""
+      /> */}
+      </Section>
+    </Background>
+  );
+};
 
 export { Hero };

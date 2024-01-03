@@ -3,26 +3,21 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    yPadding="py-0"
+    title="شرکت خدمات مسافرتی و گردشگری دیوان سیر آسمان"
+    description="با ما به ماجراجویی و کاوش در جهان بپردازید. تیم ما با داشتن دفاتر مستقر در کشورهای اسپانیا ، آلمان ، فرانسه و کانادا ، آماده خدمات‌رسانی ویژه به شما می‌باشد."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
+      title="سفر به دور دنیا با آسایش و راحتی"
+      description=" خدمات برتر ما به شما امکان می‌دهند هر جایی از جهان را به آسانی کاوش کنید و تمام لذت‌های یک سفر لوکس و مطمئن را تجربه کنید."
+      image="/assets/images/image2.jpg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
+      title="خدمات شخصی‌سازی شده بر اساس سلیقه شما"
+      description="سفر خود را برنامه ریزی کنید و از تجربه منحصر بفرد و خدمات متمایز ما بهره‌مند شوید."
+      image="/assets/images/image3.jpg"
       imageAlt="Third feature alt text"
     />
   </Section>
