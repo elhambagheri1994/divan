@@ -15,7 +15,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
         {props.children}
       </ul>
     </nav>
-    <div>۰۹۱۲۳۵۹۰۵۵۱ - ۸۶۱۹۰۰۲۴۹</div>
+    <div>۰۹۱۲۳۵۹۰۵۵۱ - ۸۶۱۹۰۲۴۹</div>
 
     <div>گیشا، نبش خیابان شانزدهم، پلاک ۱۴۵، واحد ۴۰۴</div>
     <div className="my-4 flex justify-center gap-4">{props.iconList}</div>

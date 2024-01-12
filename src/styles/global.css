@@ -7,29 +7,6 @@
 body{
   direction: rtl;
 }
-@font-face {
-  font-family: 'IRANSansWeb';
-  src:
-    url('/fonts/persian/IRANSansWeb_UltraLight/IRANSansWeb_UltraLight.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWeb_UltraLight/IRANSansWeb_UltraLight.woff')
-      format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'IRANSansWeb';
-  src:
-    url('/fonts/persian/IRANSansWeb_Light/IRANSansWeb_Light.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWeb_Light/IRANSansWeb_Light.woff')
-      format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'IRANSansWeb';
@@ -65,39 +42,6 @@ body{
 }
 
 @font-face {
-  font-family: 'IRANSansWeb';
-  src:
-    url('/fonts/persian/IRANSansWeb_Black/IRANSansWeb_Black.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWeb_Black/IRANSansWeb_Black.woff')
-      format('woff');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'IRANSansWebFaNum';
-  src:
-    url('/fonts/persian/IRANSansWebFaNum_UltraLight/IRANSansWebFaNum_UltraLight.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWebFaNum_UltraLight/IRANSansWebFaNum_UltraLight.woff')
-      format('woff');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'IRANSansWebFaNum';
-  src:
-    url('/fonts/persian/IRANSansWebFaNum_Light/IRANSansWebFaNum_Light.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWebFaNum_Light/IRANSansWebFaNum_Light.woff')
-      format('woff');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: 'IRANSansWebFaNum';
   src:
     url('/fonts/persian/IRANSansWebFaNum/IRANSansWebFaNum.woff2')
@@ -127,17 +71,6 @@ body{
     url('/fonts/persian/IRANSansWebFaNum_Bold/IRANSansWebFaNum_Bold.woff')
       format('woff');
   font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'IRANSansWebFaNum';
-  src:
-    url('/fonts/persian/IRANSansWebFaNum_BLack/IRANSansWebFaNum_BLack.woff2')
-      format('woff2'),
-    url('/fonts/persian/IRANSansWebFaNum_BLack/IRANSansWebFaNum_BLack.woff')
-      format('woff');
-  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
